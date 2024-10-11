@@ -112,3 +112,28 @@ h6 {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.scr-verticle-slider .slick-prev:before {
+  color: transparent;
+  background-image: url("../images/up-slider-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.scr-verticle-slider .slick-next:before {
+  color: transparent;
+  background-image: url("../images/down-slider-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.scr-verticle-slider .slick-arrow.slick-prev {
+  background-color: var(--secondary-color-blue);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.scr-verticle-slider .slick-arrow.slick-next {
+  background: #f9d9da;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}

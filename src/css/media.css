@@ -106,6 +106,13 @@
     margin-left: 0px;
     margin-top: 30px;
   }
+  .explore-sidebar form input {
+    width: 70%;
+  }
+  .explore-sidebar form {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -307,11 +314,17 @@
     cursor: pointer;
   }
   /* --------------------------------- Explore -------------------------------- */
-
   .category-view-container {
     width: 100%;
   }
-  .res-heading{
+  .res-heading {
     font-size: 34px !important;
+  }
+  /* --------------------------------- Special -------------------------------- */
+  .other-package-slider-titlebox p:last-child {
+    margin-right: 0px;
+  }
+  .special-des {
+    margin-right: 0px;
   }
 }

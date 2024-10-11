@@ -32,15 +32,21 @@
 }
 .category-view-container{
     width: calc(50% - 20px);
+    background-color: #d9d9d9;
+    border-radius: 10px;
 }
 .category-view-box{
     height: 250px;
-    background-color: #d9d9d9;
-    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    opacity: 0;
+    cursor: pointer;
+}
+.category-view-container:hover .category-view-box{
+    opacity: 1;
+    background-color: #bebebe;
 }
 .category-title{
     font-size: 34px;
@@ -53,4 +59,5 @@
     color: var(--black);
     font-weight: 400;
     padding: 12px 40px;
+    cursor: pointer;
 }
