@@ -1,0 +1,317 @@
+@media only screen and (max-width: 1620px) {
+  .custom-container {
+    max-width: 1440px;
+    margin: 0px auto;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .custom-container {
+    max-width: 1024px;
+    margin: 0px auto;
+  }
+  /* ------------------------------- Own Slider ------------------------------- */
+  .own-creation-slider .slick-arrow.slick-prev {
+    top: 76%;
+    left: -20%;
+  }
+  .own-creation-slider .slick-arrow.slick-next {
+    top: 76%;
+    left: -16%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .custom-container {
+    max-width: 1024px;
+    margin: 0px 50px;
+  }
+  .header-menu {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  /* ------------------------------ Hero section ------------------------------ */
+  .hero-container {
+    border-radius: 0px 0px 50px 50px;
+  }
+  .hero-container h1 {
+    font-size: 48px;
+  }
+  .hero-tag-line {
+    font-size: 18px;
+  }
+  /* -------------------------------- benefits -------------------------------- */
+  .benefit-wrapper h2 {
+    font-size: 48px;
+  }
+  .benefit-image-box {
+    padding: 20px;
+  }
+  .benefit-image-box img {
+    width: 50px;
+    height: 50px;
+  }
+  .benefit-wrapper h3 {
+    font-size: 28px;
+    margin: 20px 0px;
+  }
+  .benefit-wrapper p {
+    font-size: 16px;
+    width: 70%;
+  }
+  /* ---------------------------------- join ---------------------------------- */
+  .join-detail {
+    padding: 100px 40px;
+  }
+  /* ------------------------------- Own Slider ------------------------------- */
+  .own-creation-slider .slick-arrow.slick-prev {
+    top: 70%;
+    left: -22%;
+  }
+  .own-creation-slider .slick-arrow.slick-next {
+    top: 70%;
+    left: -16%;
+  }
+  .own-creation-detail {
+    padding: 0px 20px 0px 20px;
+  }
+  /* ------------------------------ Testimonials ------------------------------ */
+  .testimonial-review {
+    font-size: 20px;
+  }
+  /* --------------------------------- Special -------------------------------- */
+  .special-container {
+    flex-direction: column;
+  }
+  .special-package-box {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .other-package {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  /* --------------------------------- Explore -------------------------------- */
+  .explore-container {
+    flex-direction: column;
+  }
+  .explore-sidebar {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .explore-category-view {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .benefit-image-box {
+    padding: 16px;
+  }
+  .benefit-image-box img {
+    width: 42px;
+    height: 42px;
+  }
+  .benefit-wrapper h3 {
+    font-size: 22px;
+    margin: 20px 0px;
+  }
+  .benefit-wrapper p {
+    font-size: 16px;
+    width: 100%;
+  }
+  /* ---------------------------------- join ---------------------------------- */
+  .join-detail {
+    width: 100%;
+  }
+  .join-container {
+    flex-wrap: wrap;
+  }
+  .join-image {
+    width: 100%;
+    height: 500px;
+  }
+  /* --------------------------------- Footer --------------------------------- */
+  .footer-company-data {
+    width: 100%;
+  }
+  .footer-company-policy {
+    width: 50%;
+    margin-top: 40px;
+  }
+  /* ------------------------------- Own Slider ------------------------------- */
+  .own-creation-slider .slick-arrow.slick-prev {
+    top: 66%;
+    left: -35%;
+  }
+  .own-creation-slider .slick-arrow.slick-next {
+    top: 66%;
+    left: -25%;
+  }
+  .own-creation-detail {
+    width: 50%;
+    padding: 0px 20px 0px 20px;
+  }
+  .own-creation-detail h2 {
+    font-size: 28px;
+  }
+  .own-creation-slider {
+    width: calc(50% - 20px) !important;
+    margin-left: 20px;
+  }
+  /* ------------------------------ Testimonials ------------------------------ */
+  .testimonial-review {
+    font-size: 18px;
+  }
+  /* --------------------------------- Popular -------------------------------- */
+  .popular-slider .slick-arrow.slick-prev {
+    left: 85%;
+    transform: translateX(-85%);
+  }
+  .popular-slider .slick-arrow.slick-next {
+    right: 5%;
+  }
+  /* --------------------------------- Explore -------------------------------- */
+
+  .category-title {
+    font-size: 24px !important;
+  }
+  .category-view-box button {
+    padding: 12px 24px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .custom-container {
+    max-width: 1024px;
+    margin: 0px 20px;
+  }
+  .main-logo {
+    display: none;
+  }
+  .res-logo {
+    display: block;
+  }
+  .res-logo img {
+    width: 100px;
+  }
+  .header-menu-icon li {
+    padding: 0px 0px 0px 10px;
+  }
+  /* ------------------------------ Hero section ------------------------------ */
+  .hero-container h1 {
+    font-size: 34px;
+  }
+  .hero-tag-line {
+    font-size: 16px;
+  }
+  .hero-section-detail {
+    text-align: center;
+  }
+  /* -------------------------------- benefits -------------------------------- */
+  .benefit-badge-container {
+    flex-wrap: wrap;
+  }
+  .benefit-badge-box {
+    width: calc(100% - 20px);
+  }
+  .benefit-wrapper h2 {
+    font-size: 32px;
+  }
+  .benefit-wrapper h3 {
+    font-size: 22px;
+  }
+  .benefit-wrapper p {
+    width: 70%;
+  }
+  /* ---------------------------------- join ---------------------------------- */
+  .join-container {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .join-image {
+    width: 100%;
+    height: 500px;
+  }
+  .join-detail h2 {
+    margin-right: 0px;
+  }
+  .join-detail form input::placeholder {
+    text-align: center;
+  }
+  /* ------------------------------- Own Slider ------------------------------- */
+  .own-creation-slider .slick-arrow.slick-prev {
+    top: 22%;
+    left: -85%;
+  }
+  .own-creation-slider .slick-arrow.slick-next {
+    top: 22%;
+    left: -55%;
+  }
+  .own-creation-detail {
+    width: 50%;
+  }
+  .own-creation-slider {
+    width: 50% !important;
+    margin-left: 20px;
+    max-height: 400px;
+    overflow-y: hidden;
+  }
+  .own-creation-detail h2 {
+    font-size: 24px;
+  }
+  .own-creation-detail p {
+    font-size: 16px;
+  }
+  /* ------------------------------ Testimonials ------------------------------ */
+  .testimonial-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .testimonial-review {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .testimonial-profile-details {
+    margin: 20px;
+    width: 80%;
+  }
+  .testimonial-slider .slick-arrow.slick-prev {
+    top: 50%;
+  }
+  /* --------------------------------- Popular -------------------------------- */
+  .popular-slider {
+    margin: 60px 0px 80px 40px;
+    overflow: hidden;
+    max-height: 450px;
+  }
+  .popular-wrapper::before {
+    width: 500px;
+    height: 600px;
+    top: 15%;
+    left: -70%;
+  }
+  .product-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 450px;
+    width: 300px !important;
+    border-radius: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  /* --------------------------------- Explore -------------------------------- */
+
+  .category-view-container {
+    width: 100%;
+  }
+  .res-heading{
+    font-size: 34px !important;
+  }
+}

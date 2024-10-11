@@ -1,0 +1,89 @@
+.popular-wrapper {
+  margin: 100px 0px;
+  position: relative;
+}
+.popular-wrapper::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../images/chair-bg.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 500px;
+  height: 600px;
+  left: -15%;
+}
+.popular-wrapper h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.popular-slider {
+  margin: 60px 0px 80px 150px;
+}
+
+.product-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  width: 300px !important;
+  background-color: #c4c4c4;
+  border-radius: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.product-color-0 {
+  background-color: var(--secondary-color-green);
+}
+.product-color-1 {
+  background-color: var(--secondary-color-blue);
+}
+.product-color-2 {
+  background-color: var(--secondary-color-purple);
+}
+.product-color-3 {
+  background-color: var(--secondary-color-beige);
+}
+.product-slider-container {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85%;
+}
+.popular-product-image-box {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 270px;
+}
+.popular-product-image-box img {
+  height: 270px;
+}
+.popular-name {
+  font-weight: 600;
+}
+.product-slider-container p {
+  margin-top: 6px;
+}
+.popular-btn {
+  display: flex;
+  justify-content: center;
+}
+.popular-btn img {
+  width: 16px;
+  height: 16px;
+  margin: 0px 0px 0px 8px;
+  filter: invert(100);
+}
+
+.popular-slider .slick-arrow.slick-prev {
+  top: 107%;
+  left: 90%;
+  transform: translateX(-90%);
+  z-index: 11111;
+}
+.popular-slider .slick-arrow.slick-next {
+  top: 110%;
+  right: 5%;
+}

@@ -1,0 +1,98 @@
+/* -------------------------------------------------------------------------- */
+/*                                 Header Css                                 */
+/* -------------------------------------------------------------------------- */
+.header-wrapper {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-color: transparent;
+  transition: background-color 0.4s ease;
+}
+
+.header-wrapper.header-scrolled {
+  position: fixed;
+  background-color: #eeeeee;
+  z-index: 999;
+}
+.header-container {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.header-menu-icon {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.header-menu li,
+.header-menu-icon li {
+  padding: 0px 0px 0px 20px;
+  color: var(--primary-color);
+}
+.header-menu li a {
+  color: var(--primary-color) !important;
+  font-family: var(--playfair-display);
+}
+.header-menu li a:hover {
+  color: var(--primary-color-dark) !important;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.header-menu-icon li img {
+  width: 20px;
+  height: 20px;
+}
+.menu-icon {
+  display: none;
+}
+.menu-icon img {
+  width: 24px;
+  height: 24px;
+}
+.res-logo {
+  display: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Footer Css                                 */
+/* -------------------------------------------------------------------------- */
+footer {
+  background: #f3f6f5;
+}
+.footer-wrapper {
+  padding: 80px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-wrapper h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: var(--open-sans);
+}
+.footer-wrapper p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 50%;
+  line-height: 30px;
+}
+.footer-wrapper a {
+  font-size: 16px;
+  font-weight: 400;
+  width: 50%;
+  line-height: 30px;
+}
+.footer-wrapper a:hover{
+    color: var(--primary-color-dark);
+    font-weight: 600;
+}
+.legal-title {
+  width: 100% !important;
+}

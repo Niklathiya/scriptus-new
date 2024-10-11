@@ -1,0 +1,48 @@
+.join-container {
+  margin-top: 100px;
+  display: flex;
+}
+.join-image {
+  background-color: #d9d9d9;
+  width: 50%;
+}
+.join-detail {
+  background-color: #e0f6f1;
+  padding: 100px 150px;
+  width: 50%;
+}
+.join-detail h2 {
+  font-size: 48px;
+  margin-right: 80px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.join-detail span {
+  font-weight: 700;
+}
+.join-detail p {
+  font-size: 18px;
+}
+.join-detail form {
+  margin-top: 30px;
+}
+.join-detail form input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.join-detail form input::placeholder {
+  color: #c4c4c4;
+}
+.join-detail form input:focus {
+    border-bottom: 1px solid var(--black);
+}
+.join-button {
+  padding: 14px 40px;
+  font-size: 14px;
+}
+.join-button span {
+  font-weight: 400 !important;
+}

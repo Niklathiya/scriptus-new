@@ -1,0 +1,114 @@
+/* -------------------------------------------------------------------------- */
+/*                                 Common css                                 */
+/* -------------------------------------------------------------------------- */
+:root {
+  --primary-color: #70908b;
+  --primary-color-dark: #07484a;
+  --secondary-color-green: #caf3e5;
+  --secondary-color-blue: #e0eff6;
+  --secondary-color-purple: #eeebff;
+  --secondary-color-beige: #fff4e7;
+  --secondary-color-cream: #fdfbf8;
+  --white: #ffffff;
+  --black: #000000;
+  --playfair-display: PlayfairDisplay-Regular;
+  --open-sans: OpenSans-Regular;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  scroll-behavior: smooth;
+  outline: none;
+}
+body {
+  font-family: var(--open-sans);
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--playfair-display);
+}
+.custom-container {
+  max-width: 1620px;
+  margin: 0px auto;
+}
+.font-color {
+  color: var(--primary-color);
+}
+.font-color-dark {
+  color: var(--primary-color-dark);
+}
+.primary-color {
+  background-color: var(--primary-color);
+}
+.primary-color-dark {
+  background-color: var(--primary-color-dark);
+}
+.hero-button {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 social css                                 */
+/* -------------------------------------------------------------------------- */
+.social-icons {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+}
+.social-icons img {
+  cursor: pointer;
+  width: 26px;
+  height: 26px;
+  margin-right: 30px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                Slider Arrow                                */
+/* -------------------------------------------------------------------------- */
+.scr-slider .slick-arrow.slick-prev {
+  background-color: var(--secondary-color-blue);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.scr-slider .slick-prev:before {
+  color: transparent;
+  background-image: url("../images/prev-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.scr-slider .slick-arrow.slick-next {
+  background: #f9d9da;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.scr-slider .slick-next:before {
+  color: transparent;
+  background-image: url("../images/next-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
